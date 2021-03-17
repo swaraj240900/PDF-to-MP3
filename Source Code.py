@@ -2,7 +2,7 @@ import PyPDF2
 from gtts import gTTS
 
 
-pdfFileObj = open("Trail PDF.pdf", "rb")
+pdfFileObj = open("xyz.pdf", "rb")    # The file name goes here
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 
 mytext = ""
@@ -15,4 +15,4 @@ print(mytext)
 pdfFileObj.close()
 
 tts = gTTS(text=mytext, lang='en')
-tts.save("Trial Audio.mp3")
+tts.save("zyx.mp3")                 # The name of the MP3 file you want will go here....
