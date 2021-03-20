@@ -1,3 +1,5 @@
+# The PDF file should be in the same directory as the code.
+
 import PyPDF2
 from gtts import gTTS
 
